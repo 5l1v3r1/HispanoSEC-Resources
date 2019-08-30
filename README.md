@@ -474,6 +474,9 @@ Explicación sencilla y en español sobre el funcionamiento del algoritmo de int
 * [Crypton](https://github.com/ashutosh1206/Crypton)</br>
 Repositorio de github que consiste en la explicación y la implementación de todos los ataques existentes en varios sistemas de cifrado, firmas digitales, métodos de autenticación, junto con ejemplos de desafíos CTF.
 
+* [Cracking Rar File Archive Passwords](https://penguin-systems.com/node/9)</br>
+Guía para crackear passwords en archivos rar a través de las tools Hashcat y John the Ripper jumbo.
+
 * [Poodle Attack](https://www.genbeta.com/seguridad/poodle-asi-es-el-ataque-que-deja-por-fin-obsoleto-a-sslv3)</br>
 Ataque criptográfico a SSL (completamente parchado por browsers y servers), pero interesante para analizar.
 

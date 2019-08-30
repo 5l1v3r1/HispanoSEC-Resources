@@ -267,7 +267,7 @@ Es un pluggin que nos permite visualizar y editar los nombres, valores, y flags 
 Genial pluggin para un reconocimiento instantáneo de las tecnologías empleadas en la web. Puede mostrar información sobre los servidores y sus versiones, frameworks webs, frameworks js, lenguajes de programación, CDNs, PaaS, si usa CMS, entre otras cosas. Tool ultra recomendada.
 
 * [BuiltWith](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)</br>
-Otro pluggin excelentísimo para reconocimiento sobre las tecnologías empleadas en la web, entre otras cosas. Diría que es mejor que Wappalyzer, pero siempre emplear las dos juntas. Nos brinda información mas detallada que Wappalyzer sobre las tecnologías empleadas, y otras funcionalidades, como las páginas que redirigen a éste sitio, o acceso a la información más detallada sobre las tecnologías detectadas por la web en distintos momentos, y cuando esas tecnologías se dejaron de detectar, pero solo podemos acceder a la sección de tecnologías detalladas en 5 webs al día si contamos con un plan free. Para desbloquear toda la funcionalidad hay que pagar algún plan, pero si utilizamos la función detallada de forma moderada, podemos aprovechar las 5 veces diarias permitidas, y lograr sacarle provecho a la herramienta sin necesidad de pagar un plan.
+Otro pluggin excelentísimo para reconocimiento sobre las tecnologías empleadas en la web, entre otras cosas. Diría que es mejor que Wappalyzer, pero siempre emplear las dos juntas. Nos brinda información mas detallada que Wappalyzer sobre las tecnologías empleadas, y otras funcionalidades, per jumbo.como las páginas que redirigen a éste sitio, o acceso a la información más detallada sobre las tecnologías detectadas por la web en distintos momentos, y cuando esas tecnologías se dejaron de detectar, pero solo podemos acceder a la sección de tecnologías detalladas en 5 webs al día si contamos con un plan free. Para desbloquear toda la funcionalidad hay que pagar algún plan, pero si utilizamos la función detallada de forma moderada, podemos aprovechar las 5 veces diarias permitidas, y lograr sacarle provecho a la herramienta sin necesidad de pagar un plan.
 
 *Recomiendo utilizar siempre éstos cuatro pluggins para realizar la labor de hacking web. Existen numerosos pluggins más, pero éstos son los cuatro más importantes. Se encuentran disponibles también para Chrome, y tal vez para otros browsers. El único que no está disponible para Chrome es el Cookie Editor, pero hay otro exactamente igual llamado EditThisCookie para dicho browser.*
 
@@ -300,7 +300,7 @@ Guía de OWASP sobre ataques a redes móviles 2G y 3G.
 
 * [LAN Surfing - Javascript para ejecutar codigo arbitrario en routers](https://www.pentestpartners.com/security-blog/lan-surfing-how-to-use-javascript-to-execute-arbitrary-code-on-routers/)</br>
 
-### Tools:
+### Tools:per jumbo.
 
 * [Bettercap](https://github.com/bettercap/bettercap)</br>
 Herramienta más completa y eficiente de la actualidad para hacer ataques MITM.
@@ -388,7 +388,10 @@ Bash script automatizado para lanzar muchos de los comandos de las guías anteri
 Explicación sobre las contraseñas de windows LM y NTML, y los distintos métodos y tools empleadas para crackearlas.
 
 * [Crakcking ZIP Archive Passwords](https://penguin-systems.com/node/10)</br>
-Guía para crackear passworrds de archivos comprimidos en ZIP con las tools Hashcat y John the Ripper Jumbo.
+Guía para crackear passwords de archivos ZIP con las tools Hashcat y John the Ripper Jumbo.
+
+* [Cracking Rar File Archive Passwords](https://penguin-systems.com/node/9)</br>
+Guía para crackear passwords de archivos RAR con las tools Hashcat y John the Ripper jumbo.
 
 * [Funcionamiento de las Tablas Rainbow](https://www.semecayounexploit.com/?sec=password-cracking&nota=5)</br>
 Explicación sobre el funcionamiento de las tablas rainbow para crackear passwords de forma mucho más rápida y ocupando menos almacenamiento en disco (pero habiéndolas generado previamente, lo cuál lleva mucho tiempo). Por suerte existen muchas tablas rainbow ya generadas listas para descargar.
@@ -473,9 +476,6 @@ Explicación sencilla y en español sobre el funcionamiento del algoritmo de int
 
 * [Crypton](https://github.com/ashutosh1206/Crypton)</br>
 Repositorio de github que consiste en la explicación y la implementación de todos los ataques existentes en varios sistemas de cifrado, firmas digitales, métodos de autenticación, junto con ejemplos de desafíos CTF.
-
-* [Cracking Rar File Archive Passwords](https://penguin-systems.com/node/9)</br>
-Guía para crackear passwords en archivos rar a través de las tools Hashcat y John the Ripper jumbo.
 
 * [Poodle Attack](https://www.genbeta.com/seguridad/poodle-asi-es-el-ataque-que-deja-por-fin-obsoleto-a-sslv3)</br>
 Ataque criptográfico a SSL (completamente parchado por browsers y servers), pero interesante para analizar.

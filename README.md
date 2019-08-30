@@ -157,6 +157,9 @@ Posts sobre fallas lógicas poco habituales descubiertas en Facebook por Philipp
 * [SecLists](https://github.com/danielmiessler/SecLists)</br>
 Wordlists con passwords, users, dominios, directorios, más ampliamente usado por bug bounty hunters.
 
+* [RobotsDisallowed](https://github.com/danielmiessler/RobotsDisallowed)</br>
+Una lista de wordlists completas de los directorios no permitidos por el archivo robots.txt más comunmente encontrados en distintas páginas de Internet. Muchas vulnerabilidades reportadas por bug bounty hunters, fueron por encontrar vulnerabilidades en los directorios no permitidos por robots.txt. Es útil para descubrimiento de directorios.
+
 * [LFI to RCE (old techniques)](https://www.rcesecurity.com/2017/08/from-lfi-to-rce-via-php-sessions/)</br>
 Guía sobre posibles métodos para convertir un LFI en un RCE. La mayoría de éstos métodos quedaron obsoletos en la actualidad.
 
@@ -242,6 +245,9 @@ Tool más eficiente para bruteforcear subdominios.
 
 * [Gobuster](https://github.com/OJ/gobuster)</br>
 Tool más eficiente para bruteforcear directorios. También se puede emplear para bruteforcear subdominios, pero para ello conviene emplear massdns, la cuál contine resolvers múltiples. No realiza un escanéo recursivo por cada directorio encontrado. Si queremos que el bruteforceo sea recursivo, podemos emplear las tools dirb, o DirBuster de OWASP. La eficiencia de Gobuster se basa en ser un binario escrito en Go, en lugar de un script interpretado.
+
+* [LinkFinder](https://github.com/GerbenJavado/LinkFinder)</br>
+Increíble tool en python que se encarga de parsear extensos archivos .js para buscar directorios relativos o absolutos, y distintos tipos de endopoints formados dinámicamente a través de javascript. Se puede usar fácilmente en conjunto con Burpsuite, se pueden exportar todos los archivos js relacionados con todas las páginas en nuestra sección target, para luego ser parseados por ésta herramienta. La salida será un archivo .html que se abrirá automáticamente en nuestro browser, mostrando de forma muy prolija distintos endpoints generados a través de javascript. Muy util para el reconocimiento de endpints, y ampliar nuestra superficie de ataque.
 
 * [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness)</br>
 Tool que recibe una lista de dominios y toma screenshots de las páginas, para hacer un reconocimiento visual de como se verían las páginas. Muy util cuando logramos enumerar una amplia cantidad de subdominios de una empresa.

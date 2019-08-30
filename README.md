@@ -228,7 +228,7 @@ Máquina virtual con desafíos preinstalados, como DVWA, entre otros cuantos má
 
 ### Tools:
 
-* [Burpsuite Proffesional](https://www.youtube.com/watch?v=aYwiY934Hh4)</br>
+* [Burpsuite Professional](https://www.youtube.com/watch?v=aYwiY934Hh4)</br>
 Herramienta N°1 para la labor de hacking web. Mejor que OWASP ZAP.
 
 * [brutespray](https://github.com/x90skysn3k/brutespray)</br>

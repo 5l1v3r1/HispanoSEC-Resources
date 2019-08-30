@@ -249,6 +249,9 @@ Tool más eficiente para bruteforcear subdominios.
 * [Gobuster](https://github.com/OJ/gobuster)</br>
 Tool más eficiente para bruteforcear directorios. También se puede emplear para bruteforcear subdominios, pero para ello conviene emplear massdns, la cuál contine resolvers múltiples. No realiza un escanéo recursivo por cada directorio encontrado. Si queremos que el bruteforceo sea recursivo, podemos emplear las tools dirb, o DirBuster de OWASP. La eficiencia de Gobuster se basa en ser un binario escrito en Go, en lugar de un script interpretado.
 
+* [parameth](https://github.com/maK-/parameth)</br>
+Tool que nos ayuda a descubrir parámetros GET y POST ocultos en distintos endpoints por fuerza bruta, identificando la diferencia entre la longitud del response original (sin enviar el parámetro) y del response enviando el parámetro. También identifica los cambios en el HTTP status code entre el response original, y el response habiendo hecho la request con el parámetro.
+
 * [LinkFinder](https://github.com/GerbenJavado/LinkFinder)</br>
 Increíble tool en python que se encarga de parsear extensos archivos .js para buscar directorios relativos o absolutos, y distintos tipos de endopoints formados dinámicamente a través de javascript. Se puede usar fácilmente en conjunto con Burpsuite, se pueden exportar todos los archivos js relacionados con todas las páginas en nuestra sección target, para luego ser parseados por ésta herramienta. La salida será un archivo .html que se abrirá automáticamente en nuestro browser, mostrando de forma muy prolija distintos endpoints generados a través de javascript. Muy util para el reconocimiento de endpints, y ampliar nuestra superficie de ataque.
 

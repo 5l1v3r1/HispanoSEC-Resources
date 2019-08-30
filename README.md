@@ -249,6 +249,9 @@ Tool más eficiente para bruteforcear directorios. También se puede emplear par
 * [LinkFinder](https://github.com/GerbenJavado/LinkFinder)</br>
 Increíble tool en python que se encarga de parsear extensos archivos .js para buscar directorios relativos o absolutos, y distintos tipos de endopoints formados dinámicamente a través de javascript. Se puede usar fácilmente en conjunto con Burpsuite, se pueden exportar todos los archivos js relacionados con todas las páginas en nuestra sección target, para luego ser parseados por ésta herramienta. La salida será un archivo .html que se abrirá automáticamente en nuestro browser, mostrando de forma muy prolija distintos endpoints generados a través de javascript. Muy util para el reconocimiento de endpints, y ampliar nuestra superficie de ataque.
 
+* [Gitrob](https://github.com/michenriksen/gitrob)</br>
+Gitrob es una tool para encontrar archivos potencialmente sensibles en repositorios públicos de Github. Solo recibe como parámetro el nombre de usuario/organización de Github, y la tool itera a través de la historia de commits de los distintos repositorios del usuario/organización en busca de archivos potencialmente sensibles. Podemos visualizar el proceso de la tool desde la interfaz web en localhost:9393 y ver los hallazgos de forma fácil y prolija mediante la misma interfaz web.
+
 * [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness)</br>
 Tool que recibe una lista de dominios y toma screenshots de las páginas, para hacer un reconocimiento visual de como se verían las páginas. Muy util cuando logramos enumerar una amplia cantidad de subdominios de una empresa.
 

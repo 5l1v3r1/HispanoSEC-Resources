@@ -315,7 +315,7 @@ Guía de OWASP sobre ataques a redes móviles 2G y 3G.
 
 * [LAN Surfing - Javascript para ejecutar codigo arbitrario en routers](https://www.pentestpartners.com/security-blog/lan-surfing-how-to-use-javascript-to-execute-arbitrary-code-on-routers/)</br>
 
-### Tools:r jumbo.
+### Tools:
 
 * [Bettercap](https://github.com/bettercap/bettercap)</br>
 Herramienta más completa y eficiente de la actualidad para hacer ataques MITM.

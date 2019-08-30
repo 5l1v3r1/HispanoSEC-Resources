@@ -139,6 +139,9 @@ Sitio con multiples posts sobre distintas formas de realizar ataques XSS.
 * [Brutelogic XSS Payloads](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XSS%20Injection/Intruders/BRUTELOGIC-XSS-STRINGS.txt) </br>
 Payloads para XSS extraídos del blog anterior de Brutelogic.
 
+* [Blind XSS](https://medium.com/bugbountywriteup/blind-xss-for-beginners-c88e48083071)</br>
+Artículo que da consejos sobre como identificar una vulnerabilidad del tipo Stored XSS cuando el payload que introducimos se refleja en sitios a los que no tenemos acceso, como por ejemlpo, alguna aplicación empleada por un miembro o administrador del sistema posiblemente en su intranet. Incluye tips y tweets de bug bounty hunters respetables, enlaces a tools para realizar éstas pruebas y enlaces hacia otros sitios informativos para aprender más sobre Blind XSS.
+
 * [Tutorial sobre SQL Injection en MySQL](https://foro.elhacker.net/nivel_web/gran_tutorial_sobre_inyecciones_sql_en_mysql-t247535.0.html)</br>
 Tutorial en español que explica la teoría detrás de las inyecciónes SQL, y los procedimientos para realizar manualmente una inyección SQL en el DBMS MySQL. Dependiendo el DBMS la metodología para realizar una inyección SQL cambia, si quieren consultar como realizar inyecciones SQL de forma manual en otros DBMS, pueden consultar el libro OWASP Testing Guide v4, o The Web Application Hackers Handbook, Finding and Exploiting Security Flaws seccond edition.
 
@@ -249,11 +252,17 @@ Tool más eficiente para bruteforcear directorios. También se puede emplear par
 * [LinkFinder](https://github.com/GerbenJavado/LinkFinder)</br>
 Increíble tool en python que se encarga de parsear extensos archivos .js para buscar directorios relativos o absolutos, y distintos tipos de endopoints formados dinámicamente a través de javascript. Se puede usar fácilmente en conjunto con Burpsuite, se pueden exportar todos los archivos js relacionados con todas las páginas en nuestra sección target, para luego ser parseados por ésta herramienta. La salida será un archivo .html que se abrirá automáticamente en nuestro browser, mostrando de forma muy prolija distintos endpoints generados a través de javascript. Muy util para el reconocimiento de endpints, y ampliar nuestra superficie de ataque.
 
+* [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness)</br>
+Tool que recibe una lista de dominios y toma screenshots de las páginas, para hacer un reconocimiento visual de como se verían las páginas. Muy util cuando logramos enumerar una amplia cantidad de subdominios de una empresa.
+
 * [Gitrob](https://github.com/michenriksen/gitrob)</br>
 Gitrob es una tool para encontrar archivos potencialmente sensibles en repositorios públicos de Github. Solo recibe como parámetro el nombre de usuario/organización de Github, y la tool itera a través de la historia de commits de los distintos repositorios del usuario/organización en busca de archivos potencialmente sensibles. Podemos visualizar el proceso de la tool desde la interfaz web en localhost:9393 y ver los hallazgos de forma fácil y prolija mediante la misma interfaz web.
 
-* [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness)</br>
-Tool que recibe una lista de dominios y toma screenshots de las páginas, para hacer un reconocimiento visual de como se verían las páginas. Muy util cuando logramos enumerar una amplia cantidad de subdominios de una empresa.
+* [S3Scanner](https://github.com/sa7mon/S3Scanner)</br>
+Tool que nos sirve para escanear buckets abiertos de AWS S3 y dumpear su contenido.
+
+* [bXSS](https://github.com/LewisArdern/bXSS) y [ezXSS](https://github.com/ssl/ezXSS)</br>
+Dos tools que nos ayudan a identificar casos de Blind XSS.
 
 * [XMind 8](https://www.xmind.net/download/xmind8)</br>
 Herramienta gráfica para mantener un orden sobre el trabajo que estamos realizando cuando atacamos a una web amplia, con muchos subdominios y funcionalidades. Ésta herramienta puede ser empleada para muchas otrás cosas más allá del pentest, pero es bastante útil y recomendada para emplear en la labor pentest y hacking web.

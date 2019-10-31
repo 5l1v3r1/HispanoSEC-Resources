@@ -391,7 +391,7 @@ Reposito con muchos ejercicios sobre explotación de binarios, basados en el blo
 ## Linux
 
 * [Linux privilege escalation (resumed)](https://payatu.com/guide-linux-privilege-escalation/)</br>
-Guía resumida sobre la metodología para escalar privilegios en Linux
+Guía resumida sobre la metodología para escalar privilegios en Linux.
 
 * [Linux privilege escalation (extended)](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)</br>
 Guía más amplia, con muchos más comandos para usar, pero no está tan explícito de que forma usar la información que te dan los comandos.
@@ -430,7 +430,7 @@ Explicación sobre el funcionamiento de las tablas rainbow para crackear passwor
 ### Wordlists:
 
 * [CrackStation](https://crackstation.net/)</br>
-Crackstation contiene tablas masivas precomputadas para crackear passwords
+Crackstation contiene tablas masivas precomputadas para crackear passwords.
 
 * [Pwned Passwords](https://haveibeenpwned.com/Passwords)</br>
 Una lista con 55,278,657 passwords del mundo real expuestos en filtraciones de datos. Se pueden descargar por torrent, o si queremos crear una nueva password para alguna cuenta, primero podemos ingresarla en el formulario de ese sitio para saber si se encuentra en la lista de passwords filtrados.

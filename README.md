@@ -199,6 +199,9 @@ Explicación de la importancia de utilizar '===' en lugar '==' en PHP a la hora 
 * [Hacking JWT](https://medium.com/101-writeups/hacking-json-web-token-jwt-233fe6c862e6)</br>
 Artículo que da una breve explicación sobre JSON Web Token como método de manejo de sesiones en lugar de cookies, y las posibles formas de hackearlo.
 
+* [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)</br>
+Repositorio completisimo con listas de payloads útiles para hacking web, pentesting y para bypassear filtros.
+
 * [Bypassing XSS Detection Mechanisms](https://github.com/s0md3v/MyPapers/tree/master/Bypassing-XSS-detection-mechanisms)</br>
 Repositorio en el que se explica una serie de técnicas para llevar adelante nuestro XSS cuando existen diversos mecanismos de detección de por medio.
 
@@ -385,16 +388,29 @@ Reposito con muchos ejercicios sobre explotación de binarios, basados en el blo
 
 # Privilege escalation
 
+## Linux
+
 * [Linux privilege escalation (resumed)](https://payatu.com/guide-linux-privilege-escalation/)</br>
 Guía resumida sobre la metodología para escalar privilegios en Linux
 
 * [Linux privilege escalation (extended)](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)</br>
 Guía más amplia, con muchos más comandos para usar, pero no está tan explícito de que forma usar la información que te dan los comandos.
 
+* [GTFOBins](https://gtfobins.github.io/)</br>
+Lista completa de binarios de Linux, y las formas en las que pueden ser explotados para escalar privilegios en Linux dependiendo cada contexto.
+
 ### Tools:
 
 * [LinEnum](https://github.com/rebootuser/LinEnum)</br>
 Bash script automatizado para lanzar muchos de los comandos de las guías anteriores y checkear la posibilidad de escalación de privilegios en Linux.
+
+## Windows
+
+* [Windows Privilege Escalation Fundamentals](https://www.fuzzysecurity.com/tutorials/16.html)</br>
+Guía introductorio sobre escalación de privilegios en sistemas Windows.
+
+* [Windows Privilege Escalation Completo](https://github.com/netbiosX/Checklists/blob/master/Windows-Privilege-Escalation.md)</br>
+Repositorio que incluye enlaces hacia distintos sitios que explican distintas técnicas y metodologías a seguir para escalar privilegios en sistemas Windows.
 
 
 # Password cracking
@@ -557,6 +573,21 @@ Guía sobre el funcionamiento e instalación de un servidor ftp en linux y como 
 * [OWASP Secure Coding Practices](https://www.owasp.org/images/a/aa/OWASP_SCP_Quick_Reference_Guide_SPA.pdf)</br>
 Guía de OWASP sobre buenas prácticas para desarrollar aplicaciones seguras.
 
+# Honeypots
+
+* [Awesome honeypots](https://github.com/paralax/awesome-honeypots)</br>
+Repositorio colmado de distinta clase de honeypots para investigar.
+
+# Shells
+
+* [Reverse shell cheat sheet](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)</br>
+Artículo que muestra distintas formas de ejecutar una shell reversa, a través de distintas herramientas y lenguajes.
+
+* [Upgrading simple shells to fully interactive TTYs](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)</br>
+Artículo que nos muestra distintas maneras de conseguir una shell full interactiva, ya que la típica de netcat tiene algunas desventajas, como no contar con un historial de comandos, y no poder ejecutar comandos anteriores a través de la flecha hacia arriba del teclado, no maneja bien la interrupción con Control + C, y podemos perder nuestra shell fácilmente.
+
+* [Elevate netcat shell to meterpreter session](https://null-byte.wonderhowto.com/how-to/elevate-netcat-shell-meterpreter-session-for-more-power-control-0193211/)</br>
+Artículo que nos explica como convertir fácilmente una shell reversa de netcat a una shell de meterpreter para poder tener más control y trabajar de forma más cómoda.
 
 # CTF platforms
 
@@ -616,6 +647,9 @@ Sitio en el que ingresamos nuestro e-mail y nos informa si hubo una filtración 
 
 * [Online regex tester](https://regex101.com/)</br>
 Sitio para testear si las regex que estamos utilizando son válidas para lo que necesitamos.
+
+* [Explainshell](https://explainshell.com/)</br>
+Herramienta web en la cual pegamos un comando y analiza detalladamente que hace cada parámetro para comprenderlo de forma rápida.
 
 * [ListDiff](http://www.listdiff.com/compare-2-lists-difference-tool)</br>
 Sitio para comparar dos wordlists y ver que lineas aparecen solo en el primero de los dos, cuales aparecen solo en el segundo de los dos, cuales aparecen en ambos, y un merge de todas las lineas de ambos wordlist sin repetir. Con ésto podemos unir dos wordlist de password cracking en uno evitando que se repitan las palabras, o al hacer subdomain scrapping con dos tools distintas, como subfinder (más rápida y descubre más subdominios), y sublist3r (más lenta y descubre menos subdominios), y juntar todos los subdominios encontrados en un solo archivo.
